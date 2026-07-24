@@ -48,6 +48,16 @@ Identifying hallucinations and factual errors
 
 Projects will be added as they are completed.
 
+Portfolio Overview
+
+Project	Data	Annotation	Tool
+🚗 Urban Traffic	Image	Bounding Boxes	Labelbox
+🛣️ Road Scene	Image	Segmentation	CVAT
+🎥 Object Tracking	Video	Tracking	Labelbox
+📝 Entity Annotation	Text	NER	Labelbox
+💬 Intent Classification	Text	Classification	Labelbox
+🤖 AI Evaluation	Text/LLM	Evaluation	Labelbox
+
 ## Tools
 
 - Labelbox
