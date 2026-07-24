@@ -8,6 +8,42 @@ This portfolio demonstrates practical experience working with different types of
 
 The projects are designed to demonstrate skills relevant to AI data annotation, data labeling, data quality, and AI evaluation roles.
 
+The final portfolio should prove these skills
+
+This is the real objective.
+
+By the end, your portfolio should provide evidence for:
+
+Technical annotation skills
+Labelbox
+CVAT
+Bounding boxes
+Polygons
+Semantic segmentation
+Instance segmentation
+Video annotation/tracking
+Text annotation
+Classification
+Data quality skills
+Following annotation guidelines
+Handling ambiguous cases
+Consistency checking
+Error identification
+Quality control
+Cognitive skills
+Critical thinking
+Attention to detail
+Research
+Factuality verification
+Logical reasoning
+English comprehension
+AI-data skills
+Understanding annotation taxonomies
+Preparing structured training data
+Evaluating AI outputs
+Preference/ranking tasks
+Identifying hallucinations and factual errors
+
 ## Projects
 
 Projects will be added as they are completed.
