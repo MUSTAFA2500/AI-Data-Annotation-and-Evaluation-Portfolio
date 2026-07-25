@@ -4,6 +4,9 @@ A practical portfolio demonstrating skills in AI data annotation, data labeling,
 
 ## Purpose
 
+I am interested in how AI can help humanity process and understand the enormous amount of knowledge accumulated throughout history. I believe that high-quality data, careful annotation, factual verification, and critical evaluation are essential foundations for building AI systems that can help people learn, explore knowledge, and discover meaningful connections across disciplines.
+This portfolio is a small practical step in that direction, while its immediate purpose is to demonstrate my skills in AI data annotation, labeling, quality control, and AI response evaluation.
+
 This portfolio demonstrates practical experience working with different types of AI data, including images and text, using annotation and evaluation workflows.
 
 The projects are designed to demonstrate skills relevant to AI data annotation, data labeling, data quality, and AI evaluation roles.
