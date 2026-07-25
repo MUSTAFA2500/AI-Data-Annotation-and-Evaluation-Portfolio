@@ -64,6 +64,34 @@ Project	Data	Annotation	Tool
 💬 Intent Classification	Text	Classification	Labelbox
 🤖 AI Evaluation	Text/LLM	Evaluation	Labelbox
 
+ai-data-annotation-portfolio/
+│
+├── README.md
+│
+├── project-01-computer-vision/
+│   ├── README.md
+│   ├── screenshots/
+│   ├── annotation-guidelines.md
+│   └── sample-output/
+│
+├── project-02-segmentation/
+│   ├── README.md
+│   ├── screenshots/
+│   └── sample-output/
+│
+├── project-03-text-annotation/
+│   ├── README.md
+│   ├── screenshots/
+│   └── sample-output/
+│
+├── project-04-ai-response-evaluation/
+│   ├── README.md
+│   ├── screenshots/
+│   └── sample-output/
+│
+└── assets/
+    └── portfolio-video/
+
 ## Tools
 
 - Labelbox
