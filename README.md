@@ -50,7 +50,9 @@ Projects will be added as they are completed.
 
 Portfolio Overview
 
-The central idea I want every project to revolve around is this: knowledge is power, and the absence of it lies at the root of humanity's problems. Building accurate awareness — one that reflects the true nature of existence — would prevent most of our conflicts before they ever begin. But this raises a further challenge: how can thinkers acquire comprehensive knowledge of existence when faced with the sheer volume of information and intellectual heritage accumulated throughout history? This is precisely where the AI revolution offers a solution — and it's this potential that draws me to AI.
+The central idea I want every project to revolve around is this: 
+Gather and digest the enormous body of human knowledge and intellectual heritage; connect ideas across disciplines, cultures, and historical periods; distinguish reliable knowledge from error; uncover relationships and insights that are difficult for an individual human to see; and transform that knowledge into understandable wisdom that helps people better understand reality, existence, and how to live well.
+Knowledge is power, and the absence of it lies at the root of humanity's problems. Building accurate awareness — one that reflects the true nature of existence — would prevent most of our conflicts before they ever begin. But this raises a further challenge: how can thinkers acquire comprehensive knowledge of existence when faced with the sheer volume of information and intellectual heritage accumulated throughout history? This is precisely where the AI revolution offers a solution — and it's this potential that draws me to AI.
 
 Project	Data	Annotation	Tool
 🚗 Urban Traffic	Image	Bounding Boxes	Labelbox
