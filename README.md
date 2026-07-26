@@ -115,11 +115,26 @@ ai-data-annotation-portfolio/
 
 ## Broader Interest
 
-I am interested in how AI can help humanity process and understand the enormous amount of knowledge accumulated throughout history.
+Every project I build should revolve around one central idea: gathering the vast body of human knowledge, and turning it into wisdom.
 
-I believe that high-quality data, careful annotation, factual verification, and critical evaluation are important foundations for building reliable AI systems that can help people learn, explore knowledge, and discover meaningful connections across disciplines.
+Gather it — pull together the intellectual heritage humanity has accumulated across disciplines, cultures, and historical periods. Connect it — trace the links between ideas that a single mind, working alone, could never fully see. Filter it — separate what is reliable from what is error, distortion, or noise. And finally, transform it — turn raw knowledge into understandable wisdom that helps people grasp reality, understand existence, and live well.
 
-This portfolio is a practical step toward that broader interest, while its immediate purpose is to demonstrate my skills in AI data annotation, data quality, and AI evaluation.
+I believe knowledge is power, and the absence of knowledge is the root of most human problems. Not partial knowledge — accurate knowledge, awareness that reflects the true nature of existence. If we built that kind of awareness, most of our conflicts would be prevented before they ever began.
+
+But this raises a real challenge: how can any thinker acquire comprehensive knowledge of existence, given the sheer volume of information and intellectual heritage history has left behind? No individual can read it all, verify it all, or connect it all.
+
+This is exactly where the AI revolution offers an answer — and it's this potential, specifically, that draws me to AI. So my goal is to build AI-assisted systems that help humans:
+
+explore vast bodies of knowledge,
+compare perspectives against each other,
+trace claims back to their evidence,
+identify connections across disciplines,
+expose contradictions instead of hiding them,
+and make complex knowledge genuinely accessible.
+
+But this potential comes with a necessary caution: AI does not automatically discover truth just because it can process enormous amounts of information. Current research points to real limitations — hallucination, bias, poor reproducibility, and opacity in how conclusions are reached.
+
+So the system I envision must go beyond summarization. It needs source traceability, so every claim can be checked. It needs verification, so errors don't propagate. It needs critical reasoning, not just retrieval. And it needs explicit uncertainty, so confidence is never overstated.
 
 ## Portfolio Status
 
