@@ -1,1 +1,45 @@
+# Urban Traffic Object Detection
 
+## 1. Objective
+
+## 2. Role in the Overall Portfolio
+
+## 3. Dataset
+
+## 4. Annotation Ontology
+
+## 5. Annotation Guidelines
+
+## 6. Annotation Workflow
+
+## 7. Quality Control
+
+## 8. Results
+
+## 9. Examples
+
+## 10. Exported Data
+
+## 11. Skills Demonstrated
+
+## 12. Tools
+
+
+
+project-01-computer-vision/
+│
+├── README.md
+│
+├── annotation-guidelines.md
+│
+├── quality-control.md
+│
+├── screenshots/
+│   ├── raw-image.png
+│   ├── annotation-example-01.png
+│   ├── annotation-example-02.png
+│   ├── difficult-case.png
+│   └── final-review.png
+│
+└── sample-output/
+    └── annotations.json
