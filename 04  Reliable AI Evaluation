@@ -1,1 +1,70 @@
+# 04 — Reliable AI Evaluation
 
+### *Teaching AI to Give More Reliable Answers*
+
+**Focus:** General RLHF, AI evaluation, factuality, and quality assurance.
+
+The goal is to evaluate AI-generated responses and determine whether they are accurate, relevant, useful, evidence-based, and appropriately uncertain.
+
+### Evaluation Tasks
+
+* [ ] Response quality evaluation
+* [ ] Human preference ranking
+* [ ] Pairwise response comparison
+* [ ] Factuality checking
+* [ ] Hallucination detection
+* [ ] Evidence evaluation
+* [ ] Relevance assessment
+* [ ] Reasoning evaluation
+* [ ] Uncertainty assessment
+
+### Quality Assurance Tasks
+
+* [ ] Annotation consistency checking
+* [ ] Error identification
+* [ ] Error classification
+* [ ] Severity assessment
+* [ ] Root-cause analysis
+* [ ] Correction and re-review
+
+### Tools
+
+* `Labelbox`
+* `Label Studio`
+
+### Example
+
+```text
+User Question
+      │
+      ▼
+AI Response A ─────┐
+                   │
+                   ├──► Human Evaluation
+                   │
+AI Response B ─────┘
+                   │
+                   ▼
+          Preference / Ranking
+                   │
+                   ▼
+          Factuality Verification
+                   │
+                   ▼
+             QA Review
+```
+
+### Portfolio Evidence
+
+* Evaluation guidelines
+* Pairwise comparison examples
+* Preference labels
+* Factuality checks
+* Hallucination examples
+* Evidence verification
+* QA reports
+* Error analysis
+* Labelbox screenshots
+* Label Studio screenshots
+
+---
