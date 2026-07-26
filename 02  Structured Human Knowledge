@@ -1,1 +1,61 @@
+# 02 — Structured Human Knowledge
+
+### *Teaching AI to Understand Text, Claims & Evidence*
+
+**Focus:** Text annotation and structured knowledge.
+
+The goal is to transform unstructured text into structured information that helps AI systems understand entities, claims, questions, and evidence.
+
+### Tasks
+
+* [ ] Named Entity Recognition (NER)
+* [ ] BIO sequence labeling
+* [ ] Text classification
+* [ ] Claim classification
+* [ ] Evidence identification
+* [ ] Question answering
+* [ ] Question-context-answer annotation
+
+### Tools
+
+* `Doccano`
+* `Prodigy`
+
+### Formats & Concepts
+
+* `CoNLL`-style BIO tagging
+* `SQuAD`-style question answering
+
+### Workflow
+
+```text
+Raw Text
+    │
+    ▼
+Identify Entities
+    │
+    ▼
+Classify Claims
+    │
+    ▼
+Identify Supporting Evidence
+    │
+    ▼
+Create Questions & Answers
+    │
+    ▼
+Structured Knowledge
+```
+
+### Portfolio Evidence
+
+* Annotation guidelines
+* NER examples
+* BIO/CoNLL samples
+* Claim classification examples
+* Evidence annotation
+* SQuAD-style samples
+* Doccano screenshots
+* Prodigy screenshots
+* QA report
 
