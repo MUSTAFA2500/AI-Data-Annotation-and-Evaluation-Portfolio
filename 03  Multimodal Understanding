@@ -1,1 +1,68 @@
+# 03 — Multimodal Understanding
+
+### *Teaching AI to Understand the World Through Audio & Video*
+
+**Focus:** Audio and video annotation.
+
+The goal is to transform information from sound and moving images into structured multimodal data.
+
+## Audio
+
+### Tasks
+
+* [ ] Audio classification
+* [ ] Sound event identification
+* [ ] Temporal audio annotation
+* [ ] Speech labeling
+* [ ] Environmental sound labeling
+
+### Reference
+
+* `AudioSet` ontology
+
+## Video
+
+### Tasks
+
+* [ ] Object annotation
+* [ ] Object tracking
+* [ ] Action annotation
+* [ ] Event identification
+* [ ] Temporal annotation
+
+### Tools
+
+* `Label Studio`
+* `CVAT`
+* `Prodigy`
+
+### Workflow
+
+```text
+Raw Audio / Video
+        │
+        ▼
+Identify Objects & Events
+        │
+        ▼
+Add Temporal Annotations
+        │
+        ▼
+Review Annotation Quality
+        │
+        ▼
+Structured Multimodal Data
+```
+
+### Portfolio Evidence
+
+* Audio annotation examples
+* Video annotation examples
+* Temporal annotation examples
+* Object tracking examples
+* AudioSet ontology mapping
+* Label Studio screenshots
+* CVAT screenshots
+* Prodigy screenshots
+* QA report
 
