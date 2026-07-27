@@ -1,1 +1,246 @@
+Project 02 — Structured Human Knowledge
+Teaching AI to Understand Text, Claims & Evidence
+Core idea
 
+AI needs structured language data to understand not only what words mean, but also who, what, where, what is being claimed, and what evidence supports it.
+
+Main modality
+
+Text
+
+Main tasks
+NER
+BIO tagging
+Classification
+Claim identification
+Evidence identification
+Question answering
+Main tools
+Doccano
+Prodigy
+Main formats/concepts
+CoNLL/BIO
+SQuAD-style QA
+1. Objective
+
+Demonstrate the ability to transform raw text into structured information representing entities, claims, evidence, and question-answer relationships.
+
+2. Role in the Overall Portfolio
+
+This is the portfolio's knowledge-understanding layer.
+
+It moves beyond:
+
+"What is visible?"
+
+toward:
+
+"What does this information mean?"
+
+and:
+
+"What is being claimed, and what supports it?"
+
+This project connects most directly to your broader vision of organizing, connecting, and verifying human knowledge.
+
+3. Dataset
+
+Document:
+
+Dataset/source
+Original publisher
+URL
+License
+Text selection criteria
+Number of documents
+Number of sentences
+Public redistribution restrictions
+
+Potential data sources could include appropriately licensed:
+
+Public-domain texts
+Open-access scientific material
+Government publications
+Wikimedia content
+Openly licensed datasets
+4. Annotation Ontology
+
+Example:
+
+ENTITY
+├── PERSON
+├── ORGANIZATION
+├── LOCATION
+├── EVENT
+├── DATE
+├── CONCEPT
+└── WORK
+
+CLAIM
+├── FACTUAL
+├── OPINION
+├── INTERPRETATION
+├── PREDICTION
+└── UNCERTAIN
+
+EVIDENCE
+├── SUPPORTS
+├── CONTRADICTS
+└── INSUFFICIENT
+
+The exact ontology would be defined based on the selected dataset.
+
+5. Annotation Guidelines
+
+Define:
+
+Entity boundaries
+Entity categories
+BIO tagging rules
+Claim identification
+Factual vs. opinion distinctions
+Evidence identification
+Supporting vs. contradicting evidence
+Uncertainty
+Ambiguous cases
+6. Annotation Workflow
+Raw Text
+   ↓
+Text Cleaning
+   ↓
+Ontology Definition
+   ↓
+NER Annotation
+   ↓
+Claim Annotation
+   ↓
+Evidence Annotation
+   ↓
+Question-Answer Creation
+   ↓
+QA Review
+   ↓
+Structured Export
+7. Quality Control
+
+Check:
+
+Incorrect entity boundaries
+Wrong entity types
+BIO inconsistencies
+Missing claims
+Incorrect claim categories
+Unsupported evidence relationships
+Annotation inconsistencies
+8. Results
+
+Report:
+
+Documents
+Sentences
+Entities
+Entity categories
+Claims
+Evidence relationships
+Questions
+Answers
+QA corrections
+9. Examples
+
+Show:
+
+Raw text
+    ↓
+NER annotation
+    ↓
+BIO representation
+    ↓
+Claim annotation
+    ↓
+Evidence relationship
+    ↓
+Question + Answer
+10. Exported Data
+
+Demonstrate:
+
+CoNLL/BIO sample
+JSON representation
+SQuAD-style sample
+Structured claim/evidence sample
+11. Skills Demonstrated
+Text annotation
+NER
+BIO tagging
+CoNLL-style data
+Text classification
+Claim annotation
+Evidence identification
+Question answering
+SQuAD-style data
+Data quality
+Critical reasoning
+12. Tools
+Doccano
+Prodigy
+-------
+# 02 — Structured Human Knowledge
+
+### *Teaching AI to Understand Text, Claims & Evidence*
+
+**Focus:** Text annotation and structured knowledge.
+
+The goal is to transform unstructured text into structured information that helps AI systems understand entities, claims, questions, and evidence.
+
+### Tasks
+
+* [ ] Named Entity Recognition (NER)
+* [ ] BIO sequence labeling
+* [ ] Text classification
+* [ ] Claim classification
+* [ ] Evidence identification
+* [ ] Question answering
+* [ ] Question-context-answer annotation
+
+### Tools
+
+* `Doccano`
+* `Prodigy`
+
+### Formats & Concepts
+
+* `CoNLL`-style BIO tagging
+* `SQuAD`-style question answering
+
+### Workflow
+
+```text
+Raw Text
+    │
+    ▼
+Identify Entities
+    │
+    ▼
+Classify Claims
+    │
+    ▼
+Identify Supporting Evidence
+    │
+    ▼
+Create Questions & Answers
+    │
+    ▼
+Structured Knowledge
+```
+
+### Portfolio Evidence
+
+* Annotation guidelines
+* NER examples
+* BIO/CoNLL samples
+* Claim classification examples
+* Evidence annotation
+* SQuAD-style samples
+* Doccano screenshots
+* Prodigy screenshots
+* QA report
