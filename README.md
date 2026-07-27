@@ -240,35 +240,16 @@ ai-data-annotation-portfolio/
 ├── README.md
 │
 ├── project-01-visual-knowledge/
-│   ├── README.md
-│   ├── screenshots/
-│   ├── annotation-guidelines.md
-│   ├── sample-output/
-│   └── qa-report.md
+│   └── README.md
 │
 ├── project-02-structured-human-knowledge/
-│   ├── README.md
-│   ├── screenshots/
-│   ├── annotation-guidelines.md
-│   ├── sample-output/
-│   └── qa-report.md
+│   └── README.md
 │
 ├── project-03-multimodal-understanding/
-│   ├── README.md
-│   ├── screenshots/
-│   ├── annotation-guidelines.md
-│   ├── sample-output/
-│   └── qa-report.md
+│   └── README.md
 │
-├── project-04-reliable-ai-evaluation/
-│   ├── README.md
-│   ├── screenshots/
-│   ├── evaluation-guidelines.md
-│   ├── sample-output/
-│   └── qa-report.md
-│
-└── assets/
-    └── portfolio-video/
+└── project-04-reliable-ai-evaluation/
+    └── README.md
 ```
 
 ---
