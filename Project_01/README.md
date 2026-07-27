@@ -6,7 +6,7 @@
 
 AI needs structured visual data to learn about the physical world.
 
-This project demonstrates how I transform:
+This project demonstrates how raw images can be transformed into structured visual annotations and then into quality-controlled training data.
 
 > **Raw Images → Structured Visual Annotations → Quality-Controlled Training Data**
 
@@ -16,71 +16,85 @@ This project demonstrates how I transform:
 
 ### Main Tasks
 
-- Object detection
-- Bounding boxes
-- Polygon annotation
-- Semantic segmentation
-- Instance segmentation
-- Image classification
+* Object detection
+* Bounding boxes
+* Polygon annotation
+* Semantic segmentation
+* Instance segmentation
+* Image classification
 
 ### Main Tools
 
-- Labelbox
-- CVAT
+* Labelbox
+* CVAT
 
 ### Main Formats / Concepts
 
-- COCO
-- ImageNet concepts
+* COCO
+* ImageNet concepts
 
 ---
 
 ## 1. Objective
 
-Demonstrate the ability to transform raw visual data into structured, high-quality annotations that can support computer vision model training and evaluation.
+The objective of this project is to transform raw visual data into structured, high-quality annotations that can support computer vision model training and evaluation.
 
-The project focuses on accurately identifying and labeling objects and regions within real-world images.
+The project focuses on accurately identifying and labeling objects and regions within real-world images using clear annotation rules and quality control.
 
 ---
 
 ## 2. Role in the Overall Portfolio
 
-This project represents the portfolio's **visual perception layer**.
+This project represents the visual perception layer of the portfolio.
 
 It demonstrates the ability to help AI systems answer:
 
-> **"What is present in the visual world?"**
+> **What is present in the visual world?**
 
-It establishes a foundation for working with image data while demonstrating practical skills in computer vision annotation, structured data preparation, and quality control.
+It provides the foundation for working with image data and demonstrates practical skills in computer vision annotation, structured data preparation, and quality control.
 
 ---
 
 ## 3. Dataset
 
-This section documents:
+> **Dataset details will be finalized after selecting the exact public dataset or dataset subset for this project.**
 
-- Dataset name
-- Original source
-- Dataset URL
-- Number of images selected
-- Selection criteria
-- License
-- Permitted usage
-- What I personally annotated
-- What I modified
-- What I publish publicly
+This section should document:
 
-The project uses a **small, openly available dataset or subset** suitable for a public portfolio.
+* Dataset name
+* Original source
+* Dataset URL
+* Number of images selected
+* Selection criteria
+* License
+* Permitted usage
+* What I personally annotated
+* What I modified
+* What I publish publicly
 
-All dataset usage and public redistribution will follow the applicable license and usage terms of the original dataset.
+### Planned dataset requirements
+
+The dataset should be:
+
+* publicly available
+* legally usable for portfolio work
+* small enough to annotate carefully
+* suitable for image annotation tasks
+* appropriate for public GitHub publication, at least in sample form
+
+### Dataset notes
+
+* I will only use data that can be used responsibly under the dataset’s license.
+* I will document the source and licensing terms clearly.
+* I will publish only selected samples and demonstrations if the full dataset should not be redistributed.
 
 ---
 
 ## 4. Annotation Ontology
 
-The annotation ontology defines **what can be annotated and how the categories are organized**.
+The annotation ontology defines what can be annotated and how the categories are organized.
 
-Example:
+### Example ontology
 
 ```text
 Person
@@ -92,12 +106,17 @@ Vehicle
 └── Motorcycle
 
 Animal
-Building
-Traffic Sign
-Other Object
-````
 
-Each class will have:
+Building
+
+Traffic Sign
+
+Other Object
+```
+
+### Class documentation
+
+Each class should include:
 
 * Definition
 * Inclusion criteria
@@ -105,13 +124,19 @@ Each class will have:
 * Examples
 * Ambiguous cases
 
+### Notes
+
+The ontology should stay small, clear, and consistent.
+
+The goal is to create a practical annotation system that can be applied reliably, not an overly complex label set.
+
 ---
 
 ## 5. Annotation Guidelines
 
-The annotation guidelines explain exactly **how annotations should be created**.
+The annotation guidelines explain exactly how annotations should be created.
 
-They cover:
+### The guidelines should cover:
 
 * When an object should be labeled
 * How bounding boxes should be drawn
@@ -123,7 +148,15 @@ They cover:
 * When to use segmentation
 * How to handle ambiguous cases
 
-The guidelines are designed to promote **consistency, accuracy, and reproducibility** throughout the annotation process.
+### Example rules
+
+* Label only objects that are clearly visible.
+* Draw bounding boxes tightly around the visible part of the object.
+* If an object is partially occluded, label the visible portion only.
+* If an object is too unclear to identify, do not label it.
+* Use polygons only when the object shape requires more precision than a bounding box.
+
+The guidelines are designed to promote consistency, accuracy, and reproducibility throughout the annotation process.
 
 ---
 
@@ -151,11 +184,26 @@ Export
 Format Validation
 ```
 
+### Workflow explanation
+
+1. Select a small public dataset.
+2. Inspect the images and decide which objects should be annotated.
+3. Define the annotation ontology.
+4. Write clear annotation guidelines.
+5. Perform the initial annotations.
+6. Review the annotations a second time.
+7. Correct errors and inconsistencies.
+8. Run quality control checks.
+9. Export the final structured data.
+10. Validate the exported format.
+
 ---
 
 ## 7. Quality Control
 
-The quality-control process focuses on identifying and correcting:
+The quality-control process focuses on identifying and correcting annotation issues before the data is considered complete.
+
+### Quality-control checks
 
 * Annotation inconsistencies
 * Missing annotations
@@ -166,7 +214,7 @@ The quality-control process focuses on identifying and correcting:
 * Ambiguous cases
 * Other annotation errors
 
-The project will include:
+### QA methods
 
 * QA checklist
 * Error taxonomy
@@ -174,11 +222,25 @@ The project will include:
 * Before/after corrections
 * Final quality summary
 
+### Example error types
+
+```text
+Wrong class label
+Missing object
+Bounding box too loose
+Bounding box too tight
+Duplicate annotation
+Unclear ambiguous case
+Incorrect segmentation boundary
+```
+
 ---
 
 ## 8. Results
 
-The final results will report:
+> **Results will be added after annotation and QA are completed.**
+
+This section should report:
 
 * Number of images
 * Number of annotations
@@ -188,11 +250,24 @@ The final results will report:
 * Common error types
 * Final quality observations
 
+### Placeholder result format
+
+```text
+Images annotated: [to be added]
+Total annotations: [to be added]
+Classes used: [to be added]
+QA corrections: [to be added]
+Most common issue: [to be added]
+Final observation: [to be added]
+```
+
 ---
 
 ## 9. Examples
 
-The project will include representative examples such as:
+This section will include representative examples showing the full annotation process.
+
+### Planned examples
 
 * Raw image
 * Annotated image
@@ -201,20 +276,42 @@ The project will include representative examples such as:
 * Complex or ambiguous example
 * Before/after QA example
 
+### Example file locations
+
+```text
+screenshots/
+├── raw-image.png
+├── labelbox-annotation.png
+├── cvat-annotation.png
+├── qa-review.png
+└── before-after-correction.png
+```
+
+The goal is to show not only the final output, but also the annotation and review process itself.
+
 ---
 
 ## 10. Exported Data
 
-Representative samples of the exported data will be provided, including:
+Representative samples of the exported data will be provided here.
+
+### Expected export contents
 
 * COCO JSON
 * Annotation schema
 * Class mapping
 * Sample structured annotations
 
-The complete annotated dataset will not necessarily be published publicly.
+### Example export files
 
-Only selected samples and demonstrations may be provided to allow others to evaluate the work while retaining control over the complete project assets.
+```text
+sample-output/
+└── sample-coco.json
+```
+
+If the full dataset should not be published publicly, only selected samples and demonstrations will be shared.
+
+This allows others to evaluate the work while keeping control over the complete project assets.
 
 ---
 
@@ -242,4 +339,10 @@ Only selected samples and demonstrations may be provided to allow others to eval
 * Labelbox
 * CVAT
 
+---
 
+## Project Status
+
+**In progress**
+
+This project will be completed step by step, starting with dataset selection, ontology design, annotation guidelines, and a small carefully reviewed sample of image annotations.
