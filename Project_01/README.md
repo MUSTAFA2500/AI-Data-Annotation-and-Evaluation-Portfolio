@@ -97,21 +97,22 @@ The annotation ontology defines what can be annotated and how the categories are
 ### Example ontology
 
 ```text
+
 Person
+├── adult
+├── Teenager
+└── child
 
 Vehicle
 ├── Car
 ├── Bus
-├── Truck
+├── Bike
 └── Motorcycle
 
 Animal
+├── Cat
+└── Dog
 
-Building
-
-Traffic Sign
-
-Other Object
 ```
 
 ### Class documentation
